@@ -118,6 +118,12 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+# List of links in the navigation bar
+navbar-links:
+  Home: "index.html"
+  Projects: "projects.html"
+  About Me: "aboutme.html"
+
 # Site Footer
 footer:
   links:
