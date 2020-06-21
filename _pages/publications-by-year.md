@@ -11,7 +11,11 @@ author_profile: true
   <ul>
   {% for post in year.items %}
   {% if post.url %}
-        <li>{{ post.title }} [<a href="{{post.doi}}"> {{ post.doi }} </a>]</li>
+        <li>{{ post.title }} 
+           {% if post.doi %}
+            [<a href="{{post.urldoi}}"> {{ post.doi }} </a>]
+           {% endif %}
+        </li>
     {% endif %}
   {% endfor %}
   </ul>
