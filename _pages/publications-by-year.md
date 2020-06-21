@@ -2,8 +2,6 @@
 layout: single
 title: "Publications by year"
 permalink: /publications/
-toc: true
-toc_label: "Years"
 author_profile: true
 ---
 
