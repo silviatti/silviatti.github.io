@@ -11,7 +11,7 @@ author_profile: true
   <ul>
   {% for post in year.items %}
   {% if post.url %}
-        <li>{{ post.title }} [<span style="color:#CC0000;">{{ post.categories }}</span>]</li>
+        <li>{{ post.title }} [<a href= {{post.doi}}> <span style="color:#CC0000;">{{ post.doi }}</span> </a>]</li>
     {% endif %}
   {% endfor %}
   </ul>
