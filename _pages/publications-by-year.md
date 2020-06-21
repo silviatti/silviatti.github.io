@@ -16,10 +16,10 @@ header:
   {% if post.url %}
         <li>{{ post.title }} 
            {% if post.doi %}
-            [<a href="{{post.urldoi}}">{{ post.doi }}</a>]
+            [<a href="{{post.urldoi}}">{{post.doi}}</a>]
            {% endif %}
            {% if post.urlcode %}
-            [<a href="{{post.urlcode}}">{{ Code }}</a>]
+            [<a href="{{post.urlcode}}">Code</a>]
            {% endif %}
         </li>
     {% endif %}
