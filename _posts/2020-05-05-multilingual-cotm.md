@@ -5,6 +5,12 @@ Preprint (2020)."
 
 categories: 
   - preprint
+urlcode:
+  - https://github.com/MilaNLProc/contextualized-topic-models
+doi:
+  - https://arxiv.org/abs/2004.07737
+urldoi:
+  - https://arxiv.org/abs/2004.07737}
 excerpt: ""
 ---
 
