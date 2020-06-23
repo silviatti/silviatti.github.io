@@ -11,21 +11,26 @@ header:
 My research focuses on the area of Topic Modeling and Natural Language Processing. 
 My interests span multiple areas across NLP and machine learning, including Sentiment Analysis, Hate Speech, Word Representation, and Deep Learning.  
 </br>
+</br>
 Here a selected collections of some projects I've been working on.
 
 
 <h2 id="CRTM"><b>Constrained Relational Topic Models</b></h2>
-I designed and developed a semi-supervised topic model that jointly models the relationships of 
-      a network of documents and some prior knowledge related to documents in the form of constraints. 
-      My very first paper accepted to a journal! Check it out: </p>
-    <a href="https://github.com/MIND-Lab/Constrained-RTM">Code</a>
-    <a href="https://doi.org/10.1016/j.ins.2019.09.039">Paper</a>
+Topics models can automatically extract topics from collections of documents.
+If two documents are related to each other (e.g. citations) are more likely to talk about similar topics. 
+I designed and developed a semi-supervised topic model that jointly models the relationships of a network of documents and 
+some prior knowledge related to documents in the form of constraints. This work has been accepted on an international journal! 
+My very first paper! Check it out: 
+    [<a href="https://github.com/MIND-Lab/Constrained-RTM">Code</a>] [<a href="https://doi.org/10.1016/j.ins.2019.09.039">Paper</a>]
 
-<h2 id="bo4tm">Hyperparameter Optimization for Topic Models</h2> I am currently studying the impact of the hyperparameters of a subset of semi-supervised topics models.
-    I'm investigating this problem by applying Bayesian optimization techniques to identify the best configuration 
-    of hyperparameters for a topic model applied in a classification task. 
+<h2 id="bo4tm">Hyperparameter Optimization for Topic Models</h2> Hyperpameters that regulate the random variables of topic models can have a strong impact on 
+the overall performance of a model. I am empirically studying the impact of the hyperparameters of a subset of topics models. I'm investigating this problem 
+by applying Bayesian optimization techniques to identify the best configuration of hyperparameters for a topic model applied in a classification task. 
+</br> Related to this problem, I aim to extend this work and study the impact of hyperparameters on a wider set of topic models. I am actually planning to implement a 
+comparative evaluation framework in which we can compare optimized topic models and investigate multiple performance metrics. 
 
 
-<h2 id="ecrtm">Topic Models in Relational Environments </h2> I am studying how different types of relational information affect the results of a topic model. 
-    I am focusing of document relationships (e.g. citations) and relationships between the named-entities 
-      identified in a document. 
+<h2 id="ecrtm">Topic Models in Relational Environments </h2> Multiple types of relational information can be incorporated into topic models.
+I am studying how document-level relationships and word-level relationships affect the results of a topic model. 
+As for the word-level relationships, I am considering relationships between the named-entities identified in a document. The idea is that two named-entities are more 
+likely to share the same topics, rather than two single tokens (that may be ambiguous considered as single words). [<a href="https://github.com/MIND-Lab/EC-RTM">Code</a>] 
