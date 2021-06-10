@@ -7,6 +7,10 @@ categories:
   - demonstration
 urlcode:
   - https://github.com/MIND-Lab/OCTIS
+doi:
+  - https://www.aclweb.org/anthology/2021.eacl-demos.31/
+urldoi:
+  - https://www.aclweb.org/anthology/2021.eacl-demos.31/
 
 excerpt: ""
 ---
