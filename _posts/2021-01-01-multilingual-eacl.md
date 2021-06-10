@@ -7,7 +7,10 @@ categories:
   - conference
 urlcode:
   - https://github.com/MilaNLProc/contextualized-topic-models
-
+doi:
+  - https://www.aclweb.org/anthology/2021.eacl-main.143/
+urldoi:
+  - https://www.aclweb.org/anthology/2021.eacl-main.143/
 excerpt: ""
 ---
 
