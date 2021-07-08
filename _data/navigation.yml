@@ -10,4 +10,6 @@ main:
      url: /publications/
    - title: "Projects"
      url: /projects/projects/
+   - title: "Talks"
+     url: /talks/talks/
 
