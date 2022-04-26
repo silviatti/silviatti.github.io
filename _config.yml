@@ -103,9 +103,9 @@ analytics:
 author:
   name             : "Silvia Terragni"
   avatar           : "/assets/avatar.jpg"
-  bio              : "PhD student."
-  location         : "Somewhere in Milan"
-  email            : "s.terragni4@campus.unimib.it"
+  bio              : "NLP Research Engineer."
+  location         : "Somewhere in Zurich"
+  email            : "s.terragni4 (AT) campus.unimib.it"
   links:
   #  - label: "Email"
   #    icon: "fas fa-fw fa-envelope-square"
