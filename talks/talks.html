@@ -13,6 +13,83 @@ header:
 
 Here's a selection of my past talks and slides.
 
+<h2 id="KDD2023"><b>In-Context Learning User Simulators for Task-Oriented Dialogs</b> 
+ @ LLM4AI’23: Workshop on Foundations and Applications in Large-scale
+ AI Models -Pre-training, Fine-tuning, and Prompt-based Learning co-located at KDD2023 (07/08/2023)</h2>
+ We present a novel application of large language models in user simulation for task-oriented dialog systems,
+ specifically focusing on an in-context learning approach. 
+ By harnessing the power of these models, the proposed approach generates 
+ diverse utterances based on user goals and limited dialog examples. 
+ Unlike traditional simulators, this method eliminates the need for 
+ labor-intensive rule definition or extensive annotated data, 
+ making it more efficient and accessible.
+[<a href="https://silviatti.github.io/resources/kdd2023.pdf">Slides</a>]
+
+<h2 id="COLING2022"><b>BETOLD: A Task-Oriented Dialog Dataset for Breakdown Detection</b> @ When creative AI meets conversational AI (co-located at COLING 2022​) (12/11/2022)</h2>
+Task-Oriented Dialog (TOD) systems often suffer from dialog breakdowns - 
+situations in which users cannot or do not want to proceed with the conversation. 
+Ideally TOD systems should be able to detect dialog breakdowns to prevent users 
+from quitting a conversation and to encourage them to interact with the system 
+again. In this paper, we present BETOLD, a privacy-preserving dataset for 
+breakdown detection. The dataset consists of user and system turns represented 
+by intents and entity annotations, derived from NLU and NLG dialog manager 
+components. We also propose an attention-based model that detects potential 
+breakdowns using these annotations, instead of the utterances’ text. This 
+approach achieves a comparable performance to the corresponding utterance-only 
+model, while ensuring data privacy.
+[<a href="https://silviatti.github.io/resources/coling2022.pdf">Slides</a>]
+
+
+<h2 id="CLICit2021b"><b>Cross-lingual Contextualized Topic Models with Zero-shot Learning</b> @ CLIC-it (01/07/2022)</h2>
+Many data sets (e.g., reviews, forums, news, etc.) exist parallelly in multiple languages. 
+They all cover the same content, but the linguistic differences make it 
+impossible to use traditional, bag-of-word-based topic models. 
+Models have to be either single-language or suffer from a huge, but 
+extremely sparse vocabulary. Both issues can be addressed by transfer learning. 
+We introduce a zero-shot cross-lingual topic model. 
+Our model learns topics on one language (here, English), 
+and predicts them for unseen documents in different languages 
+(here, Italian, French, German, and Portuguese). 
+[<a href="https://docs.google.com/presentation/d/1Fr3K5E1LVbOF8jF-Tubai7hYvzL7EZrYTJ1mIGwTa5A/edit?usp=sharing">Slides</a>]
+
+
+
+<h2 id="CLICit2021a"><b>OCTIS 2.0: Optimizing and Comparing Topic Models in Italian Is Even Simpler</b> @ CLIC-it (30/06/2022)</h2>
+OCTIS is an open-source frame-work for training, evaluating and compar-
+ing Topic Models. This tool uses single-objective Bayesian Optimization (BO) to
+optimize the hyper-parameters of the models and thus guarantee a fairer 
+comparison. Yet, a single-objective approach disregards that a user may want 
+to simultaneously optimize multiple objectives. We therefore propose OCTIS 2.0: 
+the extension of OCTIS that addresses the problemof estimating the optimal hyper-parameter
+configurations for a topic model using multi-objective BO. Moreover, we also 
+release and integrate two pre-processed Italian datasets, which can be easily used as
+benchmarks for the Italian language.
+[<a href="https://docs.google.com/presentation/d/1hqkpin7QAfkuFzZnDNvEl9dEtx4I92un4ox1JS5MOvI/edit?usp=sharing">Slides</a>]
+
+
+
+<h2 id="NLP+CSS201"><b>Beyond the Bag Of Words: Text Analysis with Contextualized Topic Models</b> @ NLP+CSS 201 Tutorials (22/11/2021)</h2>
+Most topic models still use Bag-Of-Words (BoW) document representations as input. 
+These representations, though, disregard the syntactic and semantic relationships 
+among the words in a document, the two main linguistic avenues to coherent text. 
+Recently, pre-trained contextualized embeddings have enabled exciting new results 
+in several NLP tasks, mapping a sentence to a vector representation. 
+Contextualized Topic Models (CTM) combine contextualized embeddings with 
+neural topic models to increase the quality of the topics. Moreover, using 
+multilingual embeddings allows the model to learn topics in one language and 
+predict them for documents in unseen languages, thus addressing a task of 
+zero-shot cross-lingual topic modeling. 
+[<a href="https://docs.google.com/presentation/d/1HKeSGql8CFoELkoG7bYbwem4fwge_tRpJc76GOs_gNo/edit?usp=sharing">Slides</a>]
+[<a href="https://colab.research.google.com/drive/1EO0bS0Wow_cjdGsDfV38xt--AxJQjFtg?usp=sharing">Code</a>]
+[<a href="https://www.youtube.com/watch?v=n1_G8K07KoM">Video</a>]
+
+
+<h2 id="Universität Bern"><b>Beyond the Bag Of Words: Text Analysis with Contextualized Topic Models</b> @ Universität Bern (12/11/2021)</h2>
+Yet another tutorial on Topic Models, how to use them and evaluate them, with a focus on neural topic models.
+[<a href="https://docs.google.com/presentation/d/178AovENAdu0jPZ2jPKs_BfZ9w-Y-eUvac8OdvYJ3SwQ/edit?usp=sharing">Slides</a>]
+
+
+
 <h2 id="eurecom"><b>Modeling Knowledge Incorporation into Topic Models and their Evaluation
 </b> @ EURECOM (17/06/2021)</h2>
 Topic models are statistical methods that aim at extracting the themes, or "topics", from large collections of documents. 
