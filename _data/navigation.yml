@@ -6,10 +6,13 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
    - title: "Home"
      url: /
+   - title: "Work"
+     url: /work/
+   - title: "Research & Open Source"
+     url: /research/
    - title: "Publications"
      url: /publications/
-   - title: "Projects"
-     url: /projects/projects/
    - title: "Talks"
      url: /talks/talks/
-
+   - title: "Contact"
+     url: /contact/

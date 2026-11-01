@@ -3,9 +3,9 @@ layout: single
 title: "Publications by year"
 permalink: /publications/
 author_profile: true
-header: 
-       overlay_image: "assets/template_3.png"
-       overlay_filter: 0.0
+header:
+  overlay_image: "/assets/orange-banner.jpeg"
+  overlay_filter: 0.0
 ---
 
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}

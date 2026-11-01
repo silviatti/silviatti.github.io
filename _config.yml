@@ -20,7 +20,7 @@ title                    : "Silvia Terragni"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Silvia Terragni"
-description              : "Silvia Terragni's website."
+description              : "Machine learning engineer working at the intersection of applied research and production AI."
 url                      : "https://silviatti.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : "silviatti/silviatti.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -81,7 +81,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : TerragniSilvia
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -92,7 +92,9 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - https://www.linkedin.com/in/silvia-terragni/
+    - https://github.com/silviatti
 
 # Analytics
 analytics:
@@ -105,10 +107,10 @@ analytics:
 # Site Author
 author:
   name             : "Silvia Terragni"
-  avatar           : "/assets/avatar.jpg"
-  bio              : "NLP Research Engineer."
-  location         : "Somewhere in Zurich"
-  email            : "s.terragni4 (AT) campus.unimib.it"
+  avatar           : "/assets/profile.jpeg"
+  bio              : "Senior Lead Machine Learning Engineer at Upwork."
+  location         : "San Francisco, CA"
+  email            :
   links:
   #  - label: "Email"
   #    icon: "fas fa-fw fa-envelope-square"
@@ -116,9 +118,9 @@ author:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
     #  url: "https://silviatti.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/TerragniSilvia"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/silvia-terragni/"
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -132,24 +134,12 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/TerragniSilvia"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/silvia-terragni/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/silviatti"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
 
 
 # Reading Files
