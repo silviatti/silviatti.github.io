@@ -24,4 +24,4 @@ My PhD research explored natural language processing, representation learning, a
 
 ## Research interests
 
-I’m interested in representation learning, evaluation, recommendation, and the bridge between research results and production systems. See my [publications](/publications/) for the academic record and [talks](/talks/talks/) for selected presentations.
+I’m interested in representation learning, evaluation, recommendation, and the bridge between research results and production systems. Find my academic publications on [Google Scholar](https://scholar.google.com/scholar?q=%22Silvia+Terragni%22), or browse selected [talks](/talks/talks/).

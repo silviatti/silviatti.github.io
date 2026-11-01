@@ -22,8 +22,6 @@ I also like making knowledge reusable. That has led to papers at ACL, EACL, and 
 
 ## Explore
 
-- [Work](/work/) — selected professional experience and impact.
 - [Research & Open Source](/research/) — PhD research and projects including OCTIS, Contextualized Topic Models, and FashionCLIP.
-- [Publications](/publications/) — academic publications by year.
 - [Talks](/talks/talks/) — selected presentations and workshops.
 - [Contact](/contact/) — ways to get in touch.
